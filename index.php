@@ -392,7 +392,7 @@
             </div>
             <button type="submit" class="application__button">ОТПРАВИТЬ</button>
         </form>
-        <!-- <?php
+        <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fio = htmlspecialchars(trim($_POST['fio']));
     $tel = htmlspecialchars(trim($_POST['tel']));
@@ -417,7 +417,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-type: text/plain; charset=utf-8\r\n";
 }
-?> -->
+?>
     </section>
     <section class="queshns" id="queshns">
         <h1 class="title">ВОПРОС-ОТВЕТ</h1>
