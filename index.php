@@ -416,6 +416,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-type: text/plain; charset=utf-8\r\n";
+
+    if (
+        mail($to, $subject, $message, $headers)
+        ) {
+        // Если отправка успешна, перенаправляем на страницу с подтверждением
+        echo "Ваше сообщение успешно отправлено.";
+    } else {
+        // Если произошла ошибка, выводим сообщение
+        echo "Ошибка при отправке сообщения.";
+    }
 }
 ?>
     </section>
