@@ -1844,7 +1844,6 @@ h2{
 }
 
 .application__button{
-    text-align: center;
     outline: 0px;
     border: 0px;
     margin-bottom: 70px;
@@ -1855,6 +1854,7 @@ h2{
     background: var(--orange);
     color: var(--white);
     transition: all 0.1s;
+    text-align: center;
 }
 
 .application__button:hover{
