@@ -399,7 +399,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars(trim($_POST['email']));
     $coment = htmlspecialchars(trim($_POST['order']));
 
-    $to = "a.shkoda@saf-med.ru"; // Замените на ваш email
+    $to = "veronica.vostrikowa@yandex.ru"; // Замените на ваш email
 
     
     $subject = "Новая заявка с сайта";
