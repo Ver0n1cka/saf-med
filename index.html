@@ -390,9 +390,10 @@
                 <label for="order" class="application__form__textarea__lable">Опишите ваш заказ</label>
                 <textarea name="order" cols="" rows=""class="application__form__textarea__textarea" placeholder="Щебень 5-20мм, 15тонн"></textarea>
             </div>
-            <button type="submit" class="application__button">ОТПРАВИТЬ</button>
+            <!-- <button type="submit" class="application__button">ОТПРАВИТЬ</button> -->
+            <p class="application__button">ОТПРАВИТЬ</p>
         </form>
-        <?php
+        <!-- <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fio = htmlspecialchars(trim($_POST['fio']));
     $tel = htmlspecialchars(trim($_POST['tel']));
@@ -427,7 +428,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Ошибка при отправке сообщения.";
     }
 }
-?>
+?> -->
     </section>
     <section class="queshns" id="queshns">
         <h1 class="title">ВОПРОС-ОТВЕТ</h1>
