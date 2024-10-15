@@ -2,7 +2,7 @@ var swiper = new Swiper('.swiper-container', {
   loop: true, // Зацикливание слайдов
   autoplay: {
       delay: 5000, // Время задержки между переключениями в миллисекундах (5000 ms = 5 s)
-      disableOnInteraction: true, // Автоплей остановится при взаимодействии пользователя
+      disableOnInteraction: false, // Автоплей остановится при взаимодействии пользователя
   },
   pagination: {
       el: '.swiper-pagination',
