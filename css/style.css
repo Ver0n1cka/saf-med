@@ -1075,10 +1075,10 @@ h2{
         grid-template-columns: 1fr;
         gap: 5px;
     }
-    .menu-list{
+    /* .menu-list{
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .our_product__cards{
         grid-template-columns: 1fr;
     }
