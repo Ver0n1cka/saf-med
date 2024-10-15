@@ -1050,9 +1050,11 @@ h2{
     }
     .our_product__card-img{
         height: calc(80vw/3);
+        width: 100%;
     }
     .our_product__card__text, .our_product__button{
         bottom: 0px;
+        width: 90%;
     }
     .header__menu-link{
         font-size: 12px;
