@@ -184,6 +184,13 @@ html, body {
 }
 
 
+@media (max-width: 550px){
+    .swiper-slide img {
+        height: 50vh;
+    }
+}
+
+
 /* ****************************HEADER**************** */ 
 
 
