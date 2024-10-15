@@ -1137,6 +1137,9 @@ h2{
     .about_us__icons{
         flex-wrap: wrap;
     }
+    .about_us__icons__part{
+        width: 40%;
+    }
 }
 @media (max-width: 450px){
     .about_us__icons__part-img{
