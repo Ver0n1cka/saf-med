@@ -274,6 +274,13 @@ hr{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-left: var(--orange) 2px solid;
+}
+
+.menu-img{
+    position: relative;
+    bottom: 0px;
+    width: 106%;
 }
 
 .header__menu-link{
