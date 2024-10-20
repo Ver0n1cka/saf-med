@@ -274,13 +274,10 @@ hr{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-left: var(--orange) 2px solid;
 }
 
 .menu-img{
-    position: relative;
-    bottom: 0px;
-    width: 106%;
+    display: none;
 }
 
 .header__menu-link{
@@ -298,6 +295,12 @@ hr{
 }
 
 @media (max-width: 900px) {
+    .menu-img{
+        display: block;
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+    }
     header{
         display: flex;
         align-items: center;
@@ -362,7 +365,7 @@ hr{
         position: absolute;
         display: none;
         gap: 12px;
-        padding: 50px 10px 10px 10px;
+        padding: 50px 0 0 0;
         margin: 0;
         background: var(--white);
         list-style-type: none;
@@ -564,6 +567,10 @@ align-items: center;
         grid-row: 2/3;
         grid-column: 1/2;
     }
+    
+.footer-top{
+    width: 100%;
+}
 }
 @media (max-width: 600px){
     .footer{
@@ -1055,14 +1062,8 @@ h2{
     .our_product__button{
         font-size: 12px;
     }
-    .our_product__card-img{
-        height: calc(80vw/3);
-        width: 100%;
-    }
-    .our_product__card__text, .our_product__button{
-        bottom: 0px;
-        width: 90%;
-    }
+
+    
     .header__menu-link{
         font-size: 12px;
     }
@@ -1077,6 +1078,10 @@ h2{
     } */
 }
 @media (max-width: 450px){
+    .our_product__cards{
+        align-items: center;
+        justify-content: center;
+    }
     .our_product__card__text-big{
         font-size: 10px;
     }
@@ -1097,6 +1102,14 @@ h2{
     } */
     .our_product__cards{
         grid-template-columns: 1fr;
+    }
+    .our_product__card-img{
+        height: calc(80vw/3);
+        width: 100%;
+    }
+    .our_product__card__text, .our_product__button{
+        bottom: 0px;
+        width: 90%;
     }
 }
 
@@ -1157,8 +1170,15 @@ h2{
     text-align: justify;
 }
 
+@media (max-width: 900px){
+    .about_us__container-flex{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
 @media (max-width: 700px){
-    .about_us__text{
+    .about_us__text,.about_us__text-icons{
         font-size: 16px;
     }
     .about_us__icons{
@@ -1173,7 +1193,7 @@ h2{
         width: 54px;
         height: 54px;
     }
-    .about_us__text{
+    .about_us__text,.about_us__text-icons{
         font-size: 12px;
     }
 }
