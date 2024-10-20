@@ -57,14 +57,7 @@ html, body {
     /* overflow-x: hidden; */
 }
 
-
-
-
-
-
-
-
-
+/* 
 
 .swiper-horizontal {
     touch-action: pan-y;
@@ -107,7 +100,7 @@ html, body {
     width: 100%;
     height: 85vh;
     object-fit: cover;
-    filter: brightness(50%); /* Затемнение изображения */
+    filter: brightness(50%); 
 }
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
@@ -169,7 +162,7 @@ html, body {
     height: 20px ;
     background: #fff ;
     opacity: 1 ;
-}
+} */
 * {
     margin: 0;
     padding: 0;
@@ -451,12 +444,19 @@ hr{
 
 /* ****************FOOTER****************** */
 
-footer{
-    padding: 30px 8vw;
-    background: var(--gray);
+
+
+.footer-top{
+    position: relative;
+    width: 98vw;
+    /* height: 10vw; */
+    bottom: 0;
 }
 
+
+
 .footer{
+    padding: 30px 8vw 0px 8vw;
     display: grid;
     grid-template-columns: 45vw 17vw 17vw;
     align-items: center;
@@ -477,7 +477,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     margin: auto;
-    color: var(--white);
+    /* color: var(--white); */
     align-items: center;
 }
 
@@ -493,7 +493,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: var(--white);
+    /* color: var(--white); */
     align-items: start;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -501,7 +501,7 @@ align-items: center;
 
 .footer__menu-link{
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
     font-size: var(--standart_text);
     /* font-weight: bold; */
 }
@@ -511,7 +511,7 @@ align-items: center;
 }
 
 .footer__contacs{
-    color: var(--white);
+    /* color: var(--white); */
     width: 20vw;
     font-size: var(--standart_text);
     display: flex;
@@ -524,7 +524,7 @@ align-items: center;
 .footer__logo__logo{
     height: 139px;
     width: 139px;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(0);
 }
 
 .footer__copy{
