@@ -1101,12 +1101,23 @@ h2{
 
 
 .about_us{
-    background-image: url(../img/index/Panorama_of_the_quarry.png);
-    background-repeat:no-repeat;
-    background-position: center center;
     padding-top: 70px;
     padding-bottom: 100px;
-    background-repeat: no-repeat;
+    
+}
+
+.about_us__container-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.about_us-logo{
+    background-image: url(../img/index/5F2CD2C5.png);
+    background-repeat:no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 
